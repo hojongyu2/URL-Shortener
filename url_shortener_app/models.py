@@ -5,7 +5,7 @@ import random
 
 # Create your models here.
 class Url(models.Model):
-    original_url = models.URLField()
+    original_url = models.URLField(unique=True)
     shortened_url = models.CharField(unique=True, blank=True)
     
     # Generate a random short URL if shortened_url field is not already set and then saves the instances
