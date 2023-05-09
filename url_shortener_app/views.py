@@ -21,9 +21,10 @@ def encode(request):
                 shortened_url = serializer.data['shortened_url']
                 return JsonResponse({'shortened_url': shortened_url})
             except Exception as e:
-                print(e)
+                print(str(e))
                 return JsonResponse({'message': 'An error occured while saving url'})
-    return JsonResponse({'encode': 'something'})
+            
+    return JsonResponse({'message' : 'Only accept POST request for this application'})
 
 def decode(request):
     if request.method == 'POST':
@@ -37,6 +38,7 @@ def decode(request):
                 original_url = serializer.data['original_url']
                 return JsonResponse({'original_url': original_url})
             except Exception as e:
-                print(e)
+                print(str(e))
                 return JsonResponse({'message': 'An error occured while searching for an url'})
-    return JsonResponse({'decode': 'something'})
+            
+    return JsonResponse({'message' : 'Only accept POST request for this application'})
