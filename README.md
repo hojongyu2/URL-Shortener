@@ -1,14 +1,4 @@
 # URL-Shortener
-### POSTMAN Demo Screenshots
-
-#### CSRF Token Demo
-![CSRFTOKEN Demo](assets/csrftoken-demo.png)
-
-#### Encode Demo
-![Encode Demo](assets/encode-demo.png)
-
-#### Decode Demo
-![Decode Demo](assets/decode-demo.png)
 
 Introduction: URL shortening service using Django and Python.
 
@@ -38,3 +28,14 @@ Installation and Setup:
 11. Copy the shortened_url value.
 12. Change your link to the decode URL http://127.0.0.1:8000/decode/ and send a POST request with `shortened_url` as the key and the copied shortened_url from the previous request as the value.
 13. If everything is properly set up, you should see your original URL as a JSON response in the body as `'original_url': <your_original_url>`.
+
+### POSTMAN Demo Screenshots
+
+#### CSRF Token Demo
+![CSRFTOKEN Demo](assets/csrftoken-demo.png)
+
+#### Encode Demo
+![Encode Demo](assets/encode-demo.png)
+
+#### Decode Demo
+![Decode Demo](assets/decode-demo.png)
