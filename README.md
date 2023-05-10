@@ -32,10 +32,10 @@ Installation and Setup:
 ### POSTMAN Demo Screenshots
 
 #### CSRF Token Demo
-![CSRFTOKEN Demo](assets/csrftoken-demo.png)
+![CSRFTOKEN Demo](assets/csrf-token-demo.png)
 
 #### Encode Demo
-![Encode Demo](assets/encode-demo.png)
+![Encode Demo](assets/encode-postman-demo.png)
 
 #### Decode Demo
-![Decode Demo](assets/decode-demo.png)
+![Decode Demo](assets/decode-postman-demo.png)
