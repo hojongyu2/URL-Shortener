@@ -1,4 +1,15 @@
 # URL-Shortener
+### POSTMAN Demo Screenshots
+
+#### CSRF Token Demo
+![CSRFTOKEN Demo](assets/csrftoken-demo.png)
+
+#### Encode Demo
+![Encode Demo](assets/encode-demo.png)
+
+#### Decode Demo
+![Decode Demo](assets/decode-demo.png)
+
 Introduction: URL shortening service using Django and Python.
 
 Prerequisites:
